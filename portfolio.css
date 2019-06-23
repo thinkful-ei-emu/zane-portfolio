@@ -1,0 +1,296 @@
+
+
+
+
+
+
+
+body{
+    box-sizing: border-box;
+    background-image: url("https://image.freepik.com/free-vector/white-3d-modern-background-design_53876-88246.jpg");
+    
+    margin-bottom: 30px;
+    color:black;
+    font-family:'Oswald';
+    font-size:22px;
+}
+ul{ 
+    display:none;
+    flex-direction: column;
+    justify-content:space-evenly;
+    background-color:#e1e1e1;
+}
+
+
+li{
+   
+    font-size:24px;
+    list-style: none;
+    
+}
+li:hover{
+    background-color:white;
+    color:black;
+    cursor: pointer;
+
+}
+
+
+h1{
+    
+    margin-top: 30px;
+    text-align: center;
+    font-size:36px;
+    padding-top: 30px;
+}
+.myFamilyImage{
+    display:none;
+    width:900px;
+    height:552;
+}
+.family-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom:black 4px solid;
+}
+.my-introduction{
+    display: flex;
+    justify-content: center;
+   
+    
+    
+}
+.introduction{
+    font-size:24px;
+}
+
+
+p{
+    font-size:20px;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color:#e1e1e1;
+    
+  }
+  .aboutme{
+
+    
+      
+      margin-left: auto;   
+      margin-right:auto;
+      word-wrap: break-word;
+      width: 90%;
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+
+     
+      
+      
+      
+  }
+  .h2{
+      text-align: center;
+      justify-content: center;
+  }
+  .project{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+      
+      
+  }
+  
+
+  
+  .container {
+    display: inline-block;
+    cursor:pointer ;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  .mywork{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+  }
+  form{
+      margin-left: auto;
+      margin-right: auto;
+      width:55%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  input{
+      width: 70%;
+      height: 30px;
+      border-radius:3px;
+      cursor:text;
+  }
+  #commentbox{
+      height:100px;
+      width: 70%;
+      border-radius:3px;
+      border:black 2px solid;
+      cursor:text;
+  }
+  label{
+      font-size:20px;
+      font-weight:bold;
+      
+  }
+  button{
+      cursor:pointer;
+  }
+
+  a, u{
+      text-decoration:none;
+      color:black;
+  }
+
+  
+ 
+  .projects{
+     
+      display: flex;
+      flex-direction: column; 
+      justify-content: center;  
+      align-items: center;
+      border-top: 4px solid black;
+      
+  }
+  #contact-form{
+      
+      display:flex;
+      flex-direction: column;
+      justify-content: center;  
+      align-items: center; 
+      border-top: 4px solid black;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .social-media-tabs{
+      display: flex;    
+      flex-direction: row;  
+
+  }
+  
+  
+  
+  
+  
+  
+  
+
+@media only screen and (min-width:800px){
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        background-color:#e1e1e1;
+}
+ul{ 
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    background-color:#e1e1e1;
+}
+li{
+   
+    font-size:24px;
+    list-style: none;
+    
+}
+.container{
+    display:none;
+}
+.projects{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.projects{
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;  
+    align-items: center;
+    border-top: 4px solid black;
+    
+}
+#contact-form{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center; 
+    border-top: 4px solid black;
+}
+.aboutme{
+
+    
+    height:100vh;
+    margin-left: auto;   
+    margin-right:auto;
+    word-wrap: break-word;
+    width: 55%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;}
+    
+    
+.family-image{
+        height:100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom:black 4px solid;
+}
+.myFamilyImage{
+    display: inherit;
+    width:900px;
+    height:552;
+}
+
+}
