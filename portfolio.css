@@ -211,6 +211,11 @@ nav {
       flex-direction: row;  
 
   }
+
+  .Quizz-App-Image{
+    width:400px;
+    height: 228px;
+    border:white 2px solid;
   
   
   
@@ -294,9 +299,7 @@ li{
 }
 
 .Quizz-App-Image{
-width:400px;
-height: 228px;
-border:white 2px solid;
+display:none;
 }
 .quizz-app-project{
 display:flex;
