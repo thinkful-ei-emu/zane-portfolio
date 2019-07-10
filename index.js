@@ -1,14 +1,13 @@
-function myFunction(){
-  $('.top-nav').on('click','.container',event=>{
-  event.preventDefault();
-  $('.display').toggle();});}
+$(document).ready(function() {
+  $('a').click(function(e) {
 
+    let targetHref = $(this).attr('href');
 
+    $('html, body').animate({
+      scrollTop: $(targetHref).offset().top
+    }, 1000);
 
-
-
-
-
-
-
-  $(myFunction);
+    e.preventDefault();
+    
+  });
+});

@@ -2,23 +2,28 @@ body {
   box-sizing: border-box;
   background-image: url("https://image.freepik.com/free-vector/white-3d-modern-background-design_53876-88246.jpg");
 
-  margin-bottom: 30px;
+  margin:0;
   color: black;
   font-family: "Oswald";
   font-size: 22px;
 }
-ul {
-  display: none;
-  flex-direction: column;
-  justify-content: space-evenly;
+.mobile-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   background-color: #e1e1e1;
+  padding-right:15px;
+  margin-top: 0;
+}
+.nav-top-list{
+  display: none;
 }
 
 li {
   font-size: 24px;
   list-style: none;
 }
-li:hover {
+a:hover {
   background-color: white;
   color: black;
   cursor: pointer;
@@ -31,9 +36,9 @@ h1 {
   padding-top: 30px;
 }
 .myFamilyImage {
-  display: none;
-  width: 900px;
-  height: 552;
+  display: inherit;
+  width: 210px;
+  
 }
 .family-image {
   display: flex;
@@ -56,12 +61,14 @@ p {
   line-height: 30px;
 }
 nav {
-  position: fixed;
+  position: inherit;
   top: 0;
   left: 0;
   right: 0;
   z-index: 10;
   background-color: #e1e1e1;
+  width:100%;
+  height:45px;
 }
 .aboutme {
   margin-left: auto;
@@ -75,6 +82,7 @@ nav {
 .h2 {
   text-align: center;
   justify-content: center;
+  margin-top:15px;
 }
 .project {
   margin-left: auto;
@@ -177,8 +185,9 @@ u {
   flex-direction: row;
 }
 
-.Quizz-App-Image {
-  display: none;
+.Quiz-App-Image {
+  width:200px;
+  height:112px;
 }
 
 .img-icons {
@@ -187,14 +196,26 @@ u {
   margin-top:15px;
 }
 
+.quiz-app-project{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+
 @media only screen and (min-width: 800px) {
-  nav {
-    position: fixed;
+  .nav-top-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position:inherit;
     top: 0;
     left: 0;
     right: 0;
     z-index: 10;
     background-color: #e1e1e1;
+    height:45px;
   }
   ul {
     display: flex;
@@ -255,15 +276,21 @@ u {
     height: 552;
   }
 
-  .Quizz-App-Image {
+  .Quiz-App-Image {
     display: inherit;
     width: 400px;
     height: 228px;
     border: white 2px solid;
   }
-  .quizz-app-project {
+  .quiz-app-project {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
+  .mobile-nav{
+    display: none;
+  }
+  .top-nav{display: none;}
+  
 }
