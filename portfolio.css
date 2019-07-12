@@ -7,6 +7,9 @@ body {
   font-family: "Oswald";
   font-size: 22px;
 }
+.icon-anchor{
+  font-size: 5vh;
+}
 .mobile-nav {
   display: flex;
   flex-direction: row;
@@ -182,7 +185,9 @@ u {
 }
 .social-media-tabs {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
 }
 
 .Quiz-App-Image {
