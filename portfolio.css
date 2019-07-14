@@ -18,6 +18,8 @@ a{
 
 
 
+
+
 .mobile-nav {
   display: flex;
   flex-direction: row;
@@ -90,6 +92,8 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 20px;
+  margin-bottom:20px;
 }
 .h2 {
   text-align: center;
@@ -163,6 +167,7 @@ u {
   justify-content: center;
   align-items: center;
   border-top: 4px solid black;
+  
 }
 #contact-form {
   display: flex;
