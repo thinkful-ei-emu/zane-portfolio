@@ -60,6 +60,8 @@ h1 {
 }
 .myFamilyImage {
   display: inherit;
+  margin-bottom:10px;
+  max-width: 300px;
  
   
 }
@@ -67,7 +69,7 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+ align-items: center;
   border-bottom: black 4px solid;
 }
 .my-introduction {
@@ -301,12 +303,7 @@ u {
     align-items: center;
     border-bottom: black 4px solid;
   }
-  .myFamilyImage {
-    display: inherit;
-    margin-bottom: 10px;
   
-    
-  }
 
   .Quiz-App-Image {
     display: inherit;
@@ -332,6 +329,9 @@ u {
       justify-content:center;
       align-items: center;
       padding-right: 15px;
+    }
+    .myFamilyImage{
+      max-width: 900px;
     }
   
 }
