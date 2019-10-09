@@ -269,6 +269,9 @@ u {
     height:45px;
     border-bottom: 2px solid black;
   }
+  body{
+    font-size: 28px;
+  }
   .myworklink{
     transition:2s;
   }
@@ -349,6 +352,10 @@ u {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+
+  p{
+    font-size:27px;
   }
 
   .family-image {
